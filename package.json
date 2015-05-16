@@ -1,0 +1,22 @@
+{
+  "name": "demojavascript",
+  "version": "1.0.0",
+  "description": "Demo basic JavaScript in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechMaster/demojavascript.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Trinh Minh Cuong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TechMaster/demojavascript/issues"
+  },
+  "homepage": "https://github.com/TechMaster/demojavascript#readme"
+}
