@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/TechMaster/demojavascript/issues"
   },
-  "homepage": "https://github.com/TechMaster/demojavascript#readme"
+  "homepage": "https://github.com/TechMaster/demojavascript#readme",
+  "dependencies": {
+    "string": "^3.1.1"
+  }
 }
