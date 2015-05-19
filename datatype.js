@@ -10,6 +10,13 @@ var age = 10;
 const pi = 3.14;
 console.log(typeof pi);
 
+if (parseInt(age)) {
+    console.log("Age is integer");
+}
+
+var myage = "AAA";
+var myage2 = parseInt(myage);
+
 //Boolean
 var nodejs_slow = false;
 var iojs_fast = true;
@@ -28,6 +35,7 @@ if (!nodejs_slow && iojs_fast) {  //&& AND boolean vs || OR boolean operator
     console.log("Both Node.js and iojs are fast");
 }
 
+
 //String
 var best_film = "Gone with the Wind";
 var best_hero = 'Bat man';
@@ -35,3 +43,9 @@ var best_player = 'Bjork\'ka';  // \' is called escaped character
 console.log(best_player);
 var my_folder = "/Volumes/MacBackup/DATA/";
 console.log(my_folder);
+
+//Object
+var book = {name: "Java CookBook", author: "Cuong"};
+console.log(book.name);
+book.price = 100;
+console.log(book.price);
