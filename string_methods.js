@@ -2,8 +2,6 @@
  * Created by techmaster on 5/19/15.
  */
 
-//var exports = module.exports = {};
-
 var quotes = "Darkness cannot drive out darkness; " +
     "only light can do that. " +
     "Hate cannot drive out hate; " +
@@ -45,14 +43,3 @@ var love = "LOVE";
 for (var i = love.length -1 ; i >= 0; i--){
     console.log(love.charAt(i));
 }
-
-String.prototype.reverse = function() {
-    var result = "";
-    for (var i = this.length -1 ; i >= 0; i--){
-        result += this.charAt(i);
-    }
-    return result;
-};
-
-console.log(love.reverse());
-
