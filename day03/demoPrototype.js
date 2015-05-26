@@ -15,7 +15,17 @@ Robot.prototype.speak = function (text) {
 };
 
 flyRobot.speak('Hello World');
+flyRobot.talk = function() {
+    console.log('I am talking');
+};
+flyRobot.talk();
 
+flyRobot.speak = function(text){
+    "use strict";
+  console.log("Redefined speak");
+};
+flyRobot.speak('Hello World');
+/*
 console.log(diveRobot.prototype);
 console.log(Robot.prototype);
 
@@ -45,3 +55,4 @@ MiniRobot.prototype = Robot.prototype;
 var minRobot = new MiniRobot('small');
 console.log(MiniRobot.prototype);
 minRobot.speak('hi');
+*/

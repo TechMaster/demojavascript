@@ -24,8 +24,10 @@ var status = flight.status || "unknown";
 console.log(status);
 flight.status = "flying";
 
-//Object is passed by reference
+//Object is passed by reference by default
 var byRefFlight = flight;
+
+//This code really copies object to other instance
 var byCopyFlight = Object.create(flight);
 
 byRefFlight.status = "Landing";
