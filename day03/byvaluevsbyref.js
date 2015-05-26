@@ -3,7 +3,8 @@ var a = 1,
     a_ = a,
     b_ = b;
 
-//Params are copied by value
+//non object type params are passed by value
+//object type params are passed by reference
 function makeChange(_a, _b) {
     _a = 2;
     console.log(_a);

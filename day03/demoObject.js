@@ -22,8 +22,14 @@ console.log(flight.status);
 
 var status = flight.status || "unknown";
 console.log(status);
+flight.status = "flying";
 
 //Object is passed by reference
-var otherFlight = flight;
-flight.status = "delay";
-console.log(otherFlight.status);
+var byRefFlight = flight;
+var byCopyFlight = Object.create(flight);
+
+byRefFlight.status = "Landing";
+console.log(flight.status);
+
+byCopyFlight.status = "Crash!";
+console.log('flight.status = ' + flight.status + ". byCopyFlight.status = " + byCopyFlight.status);
