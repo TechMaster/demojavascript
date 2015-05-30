@@ -31,7 +31,7 @@ var byRefFlight = flight;
 var byCopyFlight = Object.create(flight);
 
 byRefFlight.status = "Landing";
-console.log(flight.status);
+console.log('flight.status = ' + flight.status + ". byRefFlight.status = " + byRefFlight.status);
 
 byCopyFlight.status = "Crash!";
 console.log('flight.status = ' + flight.status + ". byCopyFlight.status = " + byCopyFlight.status);

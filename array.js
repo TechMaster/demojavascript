@@ -2,9 +2,13 @@
  * Created by techmaster on 5/15/15.
  */
 var cars = ["Saab", "Volvo", "BMW"];
-for (var i = 0; i < cars.length; i++) {
+/*for (var i = 0; i < cars.length; i++) {
+    console.log(cars[i]);
+}*/
+for (var i = 1; i <= cars.length; i++) {
     console.log(cars[i]);
 }
+/*
 console.log(cars.valueOf());
 console.log(cars.join(" * "));
 cars.push("Honda");
@@ -21,4 +25,4 @@ fruits = ["Orange", "Strawberry", "Banana", "Lemon", "Pine", "Apple"];
 while (fruits.length > 0) {
     fruits.shift();
     console.log(fruits.valueOf());
-}
+}*/

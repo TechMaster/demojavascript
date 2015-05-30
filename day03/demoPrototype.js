@@ -21,7 +21,6 @@ flyRobot.talk = function() {
 flyRobot.talk();
 
 flyRobot.speak = function(text){
-    "use strict";
   console.log("Redefined speak");
 };
 flyRobot.speak('Hello World');
