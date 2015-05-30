@@ -1,19 +1,13 @@
 var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
-
 var person2 = {
     firstName:"John",
     lastName:"Doe",
     age:50,
     eyeColor:"blue"
 };
-
-var person3 = new Object();
-person3.firstName = "John";
-person3.lastName = "Doe";
-person3.age = 50;
-person3.eyeColor = "blue";
-
-console.log(person3);
+person2.gender = "male";
+delete person2.eyeColor;
+console.log(person2);
 
 var person4 = {};
 person4.firstName = "John";
@@ -28,7 +22,6 @@ function Person(first, last, age, eye) {
     this.eyeColor = eye;
 }
 
-
 var myFather = new Person("John", "Doe", 50, "blue");
 var myMother = new Person("Sally", "Rally", 48, "green");
 
@@ -36,7 +29,9 @@ Person.prototype.showInfo = function() {
     "use strict";
     console.log("name: ", this.firstName, this.lastName, ", age: ", this.age);
 };
+
 myFather.showInfo();
+myMother.showInfo();
 
 var x1 = new Object();    // A new Object object
 var x2 = new String("Hello World");    // A new String object
@@ -48,9 +43,8 @@ var x7 = new Function();  // A new Function object
 var x8 = new Date();      // A new Date object
 
 console.log(x2);
-console.log(x4);
+x22 = "Hello World";
+console.log(x22);
 
-var itIsHot = true;
-console.log(itIsHot);
-var date = new Date("2015-03-25");
+var date = new Date('2015-03-25');
 console.log(date);
